@@ -1,5 +1,6 @@
 body {
   background-color: rgb(111, 111, 138);
+  flex-wrap: wrap;
 }
 /* main container */
 .box {
@@ -12,8 +13,8 @@ body {
 #Result {
   margin: 3% 0% 5% 5%;
   float: left;
-  width: 450px;
-  height: 500px;
+  width: 40%;
+  height: 70%;
   border: 11px solid rgba(251, 160, 14, 0.801);
   border-radius: 10px ;
   box-shadow: 0px 5px 12px 0px #777474 , inset 0px 6px 12px 0px #777474; 
@@ -38,7 +39,7 @@ p {
 }
 /* input style */
 input {
-    width: 500px;
+    width: 30%;
     height: 60px;
     display: flex;
     flex-direction: column;
